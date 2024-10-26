@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://3.110.131.101:9980/sudha/repository/facebook-release/</url>
+	      <url>http://172.31.45.193:9980/sudha/repository/facebook-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.110.131.101:9980/sudha/repository/facebook-snapshot/</url>
+	      <url>http://172.31.45.193:9980/sudha/repository/facebook-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
