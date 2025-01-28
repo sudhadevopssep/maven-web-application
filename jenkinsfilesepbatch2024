@@ -9,6 +9,7 @@ echo "Node Name is: ${env.NODE_NAME}"
 properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5', daysToKeepStr: '', numToKeepStr: '5'))])
 
 try{
+sendslacknotifications("STARTED")
 stage('CheckoutCode'){
 git branch: 'development', credentialsId: '7e698ad6-96e8-45dc-a1f4-8c7bab524140', url: 'https://github.com/sudhadevopssep/maven-web-application.git'
 }
