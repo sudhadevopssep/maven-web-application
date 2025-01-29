@@ -15,7 +15,7 @@ git branch: 'development', credentialsId: '7e698ad6-96e8-45dc-a1f4-8c7bab524140'
 }
 
 stage('Build'){
-sh "${mavenHome}/bin/mvn clean packag"    
+sh "${mavenHome}/bin/mvn clean package"    
 }
 /*
 stage('Execute SonarQube Report'){
